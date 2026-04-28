@@ -1,0 +1,19 @@
+# Secrets - never commit these
+.env
+.env.*
+
+# Config with sensitive data
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs and outputs
+logs/
+output/
+output newsletter/
+*.log

@@ -1,0 +1,38 @@
+{
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "your-email@gmail.com",
+    "sender_password": "your-app-password-here",
+    "recipients": ["recipient@example.com"]
+    ,
+    "subject_prefix": "[AI Research Weekly]"
+  },
+  "search": {
+    "default_queries": [
+      "large language models",
+      "transformer architectures",
+      "reinforcement learning"
+    ],
+    "max_results_per_query": 10,
+    "top_n_papers": 6,
+    "batch_size": 2,
+    "ollama_model": "llama3.2"
+  },
+  "schedule": {
+    "day_of_week": "monday",
+    "time": "13:42",
+    "timezone": "UTC"
+  },
+  "newsletter": {
+    "newsletter_name": "AI Research Insights",
+    "include_abstract_snippets": true,
+    "max_papers_in_newsletter": 3,
+    "include_subdomain_breakdown": true
+  },
+  "monitoring": {
+    "enable_logging": true,
+    "log_retention_days": 8,
+    "send_error_notifications": true
+  }
+}

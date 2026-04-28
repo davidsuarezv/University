@@ -1,0 +1,13 @@
+[project]
+name = "arxiv-paper-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.96.0",
+    "feedparser>=6.0.12",
+    "openai>=2.32.0",
+    "pypdf>=6.10.2",
+    "requests>=2.33.1",
+]
